@@ -23,7 +23,7 @@ $t = $translations[$lang];
           <span class="text-xs font-mono font-semibold px-2.5 py-1 rounded-lg bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
             Native Desktop
           </span>
-          <span class="text-[11px] text-slate-500 font-mono">v2026.10.5</span>
+          <span class="text-[11px] text-slate-500 font-mono"><?= htmlspecialchars($konfix_version) ?></span>
         </div>
         <h3 class="text-base font-bold text-white">Tauri v2 Desktop App</h3>
         <p class="text-xs text-slate-400 leading-relaxed">

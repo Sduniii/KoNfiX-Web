@@ -1,5 +1,5 @@
 <?php
-// Mehrsprachige Texte für KoNfiX v2026.10.5 & KoNfiX-Catalog (db.konfix.sduni.de)
+// Mehrsprachige Texte für KoNfiX & KoNfiX-Catalog (db.konfix.sduni.de)
 $translations = [
     'de' => [
         'meta' => [
@@ -18,7 +18,7 @@ $translations = [
             'github' => 'GitHub'
         ],
         'hero' => [
-            'badge' => 'KoNfiX v2026.10.5 & Catalog Cloud — Offenes KNX Ökosystem',
+            'badge' => 'KoNfiX {version} & Catalog Cloud — Offenes KNX Ökosystem',
             'title' => 'Visuelle KNX Projektierung &',
             'title_gradient' => 'Offene Gerätedatenbank',
             'subtitle' => 'Schluss mit unübersichtlichen Tabellenmatrizen und teuren Dongle-Lizenzen. KoNfiX vereint visuelle Blueprint-Verdrahtung, einen interaktiven 2D-CAD Hausplan, sub-sekündliches Differenzial-Flashen mit KNX Data Secure und den offenen Cloud-Katalog db.konfix.sduni.de.',
@@ -161,7 +161,7 @@ $translations = [
             'github' => 'GitHub'
         ],
         'hero' => [
-            'badge' => 'KoNfiX v2026.10.5 & Catalog Cloud — Open KNX Ecosystem',
+            'badge' => 'KoNfiX {version} & Catalog Cloud — Open KNX Ecosystem',
             'title' => 'Visual KNX Engineering &',
             'title_gradient' => 'Open Device Database',
             'subtitle' => 'Ditch tedious spreadsheet matrices and expensive hardware dongles. KoNfiX unifies visual blueprint wiring, an interactive 2D-CAD floorplan, sub-second differential flashing with KNX Data Secure, and the open cloud catalog db.konfix.sduni.de.',

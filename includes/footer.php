@@ -12,7 +12,7 @@ $t = $translations[$lang];
           </div>
         </div>
         <span class="text-base font-bold text-white tracking-tight">KoNfiX &amp; KoNfiX-Catalog</span>
-        <span class="text-[10px] font-mono px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">v2026.10.5</span>
+        <span class="text-[10px] font-mono px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20"><?= htmlspecialchars($konfix_version) ?></span>
       </div>
       <p class="text-xs text-slate-400 leading-relaxed">
         <?= htmlspecialchars($t['footer']['desc']) ?>

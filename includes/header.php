@@ -13,7 +13,7 @@ $t = $translations[$lang];
         <div class="flex items-center gap-1.5 leading-none">
           <span class="font-bold text-sm text-slate-100 tracking-tight">KoNfiX</span>
           <span class="text-[10px] font-mono tracking-wider bg-sky-500/10 text-sky-400 border border-sky-500/20 px-1.5 py-0.5 rounded font-semibold">
-            v2026.10.5
+            <?= htmlspecialchars($konfix_version) ?>
           </span>
         </div>
         <span class="text-[11px] text-slate-400 font-medium hidden sm:inline-block mt-0.5">

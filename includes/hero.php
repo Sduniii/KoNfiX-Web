@@ -11,8 +11,8 @@ $t = $translations[$lang];
     <!-- Announcement Badge -->
     <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-800/80 border border-slate-700/80 shadow-sm text-xs font-medium text-slate-300">
       <span class="flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
-      <span class="text-slate-200"><?= htmlspecialchars($t['hero']['badge']) ?></span>
-      <span class="text-emerald-400 font-semibold ml-1">Release v2026.10.5 →</span>
+      <span class="text-slate-200"><?= htmlspecialchars(str_replace('{version}', $konfix_version, $t['hero']['badge'])) ?></span>
+      <span class="text-emerald-400 font-semibold ml-1">Release <?= htmlspecialchars($konfix_version) ?> →</span>
     </div>
 
     <!-- Main Title -->

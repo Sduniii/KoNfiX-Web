@@ -20,3 +20,6 @@ temp/
 node_modules/
 bun.lock
 package-lock.json
+
+# Dynamic Version Cache
+data/version_cache.json

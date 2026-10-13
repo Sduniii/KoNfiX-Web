@@ -12,9 +12,11 @@ if (isset($_GET['lang']) && in_array($_GET['lang'], $supported_langs, true)) {
     $lang = 'en';
 }
 
+require_once __DIR__ . '/data/version.php';
 require_once __DIR__ . '/data/translations.php';
 require_once __DIR__ . '/data/devices.php';
 
+$konfix_version = get_latest_konfix_version();
 $t = $translations[$lang];
 ?>
 <!DOCTYPE html>
